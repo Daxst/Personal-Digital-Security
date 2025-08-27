@@ -22,6 +22,7 @@ This project documents the implementation of a robust personal security model to
     * Deployed Tailscale VPN across all devices, creating a personal security perimeter.  
     * Integrated NextDNS for network-level filtering, blocking trackers, malware, and phishing at both router and device level.  
     * Avoided connections to public or untrusted Wi-Fi networks.
+    * The implementation of Tailscale not only creates a mesh VPN for secure access, but also establishes a unified security perimeter for all my devices, protecting them even on untrusted external networks. For its part, the integration of NextDNS at the device level ensures that the filtering of threats, ads, and trackers is constant, regardless of the network I connect to.
 
 ## Project Results
 
