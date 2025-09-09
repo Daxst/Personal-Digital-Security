@@ -20,7 +20,8 @@ This project documents the implementation of a robust personal security model to
 *   **Environment and Network Hardening:**  
     * Maintained strict endpoint security on Apple devices: always-on firewall, immediate software updates, and regular device reboots.  
     * Deployed Tailscale VPN across all devices, creating a personal security perimeter.  
-    * Integrated NextDNS for network-level filtering, blocking trackers, malware, and phishing at both router and device level.  
+    * Integrated NextDNS for network-level filtering, blocking trackers, malware, and phishing at both router and device level. The configuration of NextDNS has been optimized to work in              conjunction with Safari, selecting blocklists that complement, rather than duplicate, the browser's native functions, such as the removal of cookie notices and pop-up windows that NextDN           cannot manage.
+    * Strengthened Safari with a layered defense strategy, using the 1Blocker extension (free version) to block visual "annoyances" and complement the network-level protection provided by NextDNS. This synergy ensures a clean and secure browsing experience.
     * Avoided connections to public or untrusted Wi-Fi networks.
     * The implementation of Tailscale not only creates a mesh VPN for secure access, but also establishes a unified security perimeter for all my devices, protecting them even on untrusted external networks. For its part, the integration of NextDNS at the device level ensures that the filtering of threats, ads, and trackers is constant, regardless of the network I connect to.
 
